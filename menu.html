@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu - Restaurant</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About Us</a></li>
+      <li><a href="menu.html" class="nav-link active">Menu</a></li>
+      <li><a href="booking.html" class="nav-link">Booking</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <h1>Our Menu</h1>
+    <div class="menu-list" id="menu-list">
+      <!-- Menu items will be dynamically inserted here -->
+    </div>
+  </main>
+
+  <!-- Modal container -->
+  <div id="menu-modal" class="modal-overlay">
+    <div class="modal-content">
+      <span class="modal-close" id="menu-modal-close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <p id="modal-description"></p>
+      <p><strong>Price: </strong><span id="modal-price"></span></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/modals.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>
