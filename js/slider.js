@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
     showSlide(currentIndex);
   });
 
-  // Auto slide every 5 seconds
+  
+  
   setInterval(() => {
     currentIndex = (currentIndex + 1) % slides.length;
     showSlide(currentIndex);

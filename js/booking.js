@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const confirmNoBtn = document.getElementById('confirm-no');
   const successCloseBtn = document.getElementById('success-close');
 
-  // Set minimum date to today for date input
+  
+  
   const dateInput = form.querySelector('#date');
   const today = new Date().toISOString().split('T')[0];
   dateInput.setAttribute('min', today);
@@ -20,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // Gather form data
+
     const bookingData = {
       name: form.name.value.trim(),
       email: form.email.value.trim(),
@@ -30,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
       guests: form.guests.value,
     };
 
-    // Show confirmation modal with booking details
     confirmDetails.innerHTML = `
       <p><strong>Name:</strong> ${bookingData.name}</p>
       <p><strong>Email:</strong> ${bookingData.email}</p>
@@ -42,12 +42,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     openModal(confirmModal);
 
-    // Confirm or cancel booking
+   
+    
     confirmYesBtn.onclick = () => {
       closeModal(confirmModal);
       openModal(successModal);
 
-      // Log booking details in human-readable format
+      
+      
       console.log('Booking Details:');
       console.log(`Name: ${bookingData.name}`);
       console.log(`Email: ${bookingData.email}`);
@@ -68,7 +70,8 @@ document.addEventListener('DOMContentLoaded', () => {
     closeModal(successModal);
   });
 
-  // Modal open/close helpers
+
+  
   function openModal(modal) {
     modal.classList.add('active');
   }
@@ -77,7 +80,8 @@ document.addEventListener('DOMContentLoaded', () => {
     modal.classList.remove('active');
   }
 
-  // Close modals on clicking outside content
+ 
+  
   [confirmModal, successModal].forEach(modal => {
     modal.addEventListener('click', (e) => {
       if (e.target === modal) closeModal(modal);
