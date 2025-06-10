@@ -4,6 +4,7 @@ Welcome to the **African Food Restaurant Website** project! This is a fully resp
 
 
 ## Screen shots
+![Image](https://github.com/user-attachments/assets/2ad724a1-e010-4a8d-abb4-977205b89060)
 ---
 
 ## Table of Contents
