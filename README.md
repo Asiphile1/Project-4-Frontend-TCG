@@ -113,5 +113,4 @@ For questions or feedback, please contact:
 
 ---
 
-Thank you for visiting the African Food Restaurant Website project!
 
