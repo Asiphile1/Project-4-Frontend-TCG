@@ -40,6 +40,38 @@ document.addEventListener("DOMContentLoaded", () => {
         "Warm chocolate cake with a gooey molten center, served with vanilla ice cream.",
       imageSrc: "images/amagwinya.jpg",
     },
+    {
+      id: 1,
+      name: "Boerewors Chakalaka and Pap",
+      price: "R112.99",
+      description:
+        "Fresh greens topped with grilled chicken, cherry tomatoes, and house dressing.",
+      imageSrc: "images/boerewors.jpg",
+    },
+    {
+      id: 2,
+      name: "Braai Meat",
+      price: "R215.99",
+      description:
+        "Classic Italian pasta with rich meat sauce and parmesan cheese.",
+      imageSrc: "images/braai-meat.jpg",
+    },
+    {
+      id: 3,
+      name: "Bunny Chow",
+      price: "R114.50",
+      description:
+        "Thin crust pizza topped with fresh mozzarella, tomato sauce, and basil.",
+      imageSrc: "images/bunny-chow.jpg",
+    },
+    {
+      id: 4,
+      name: "Amagwinya with mince",
+      price: "R87.99",
+      description:
+        "Warm chocolate cake with a gooey molten center, served with vanilla ice cream.",
+      imageSrc: "images/amagwinya.jpg",
+    },
   ];
 
 
